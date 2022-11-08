@@ -1,3 +1,7 @@
+if(typeof init === 'undefined'){
+	const init = function(){
+
+
 console.log('vtchecked loaded');
 
 var icon = document.createElement('div');
@@ -187,3 +191,6 @@ window.setInterval(function ()
 		}
 	}
 }, 1000);
+}
+init();
+}
