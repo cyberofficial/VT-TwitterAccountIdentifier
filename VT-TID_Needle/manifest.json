@@ -1,0 +1,23 @@
+{
+	"manifest_version": 3,
+	"name": "VT-TwitterIdentifier Needle",
+	"version": "0.0.1",
+	"description": "Mark Official HoloLive Twitter accounts. Blade version of extreme testing.",
+	"background": {
+		"//service_worker": "serverice_worker.js"
+	  },
+	"permissions": ["scripting"],
+	"host_permissions": ["*://*.twitter.com/*"],
+	"content_scripts": [
+		{
+			"matches": [
+				"*://*.twitter.com/*"
+			],
+			"js": [
+				"db_list.js",
+				"TwitterIdentifier.js"
+			],
+			"run_at": "document_start"
+		}
+	]
+}
