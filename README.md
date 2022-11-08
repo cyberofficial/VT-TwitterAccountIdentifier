@@ -11,8 +11,7 @@ Twitter is changing and stuff will get messy quick! If twitter the platform does
 - Edge
 
 ### Manifest v2 Support
-All latest browsers still support manifest v2, but I've chosen to build with V3.
-You can choose the option to download V2 for if you want, Support will be limited as V3 is more restricted.
+All latest browsers still support manifest v2, but I've chosen to build with v3, I rather get used to v3 now than having a set back.
 
 # Why is it only Holo/Cover being tagged?
 Starting focus is HoloLive, it's more of a test to see how everything else goes in long term and weather the project is worth it or not. The other Long term plan is to have a public vetting system where then anyone can apply and be accepted if vetted enough by the public. This project starting out is HoloLive based 100%. After the test and if people like it. I will focus and expand out wards and upwards to the general population (or) until Elon decides chrome extensions are illegal. The system will be unbiased and will mainly be held by public response on whether if a person is accepted or not by votes. Though abuse of voting will clearly just be a simple block button of not accept responses from certain people. I will hold no bias on who people vett in or vett out. The system will be manual for a while though as the core back end is set up so for now, you can report issues and suggestions to the issues tab.
