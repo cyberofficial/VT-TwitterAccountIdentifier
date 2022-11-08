@@ -7,7 +7,6 @@ Twitter is changing and stuff will get messy quick! If twitter the platform does
 ### Working Browsers (Tested)
 - Chrome
 - Opera
-- FireFox
 - Edge
 
 ### Manifest v2 Support
