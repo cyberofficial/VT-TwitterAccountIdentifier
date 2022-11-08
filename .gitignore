@@ -1,0 +1,10 @@
+.web-extension-id
+web-ext-artifacts/
+*.bak
+build_ff.bat
+src.crx
+src.pem
+*.crx
+*.pem
+VT-TID.zip
+sign_ff.bat

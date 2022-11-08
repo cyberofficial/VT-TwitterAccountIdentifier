@@ -1,0 +1,35 @@
+{
+	"manifest_version": 2,
+	"name": "VT-TwitterIdentifier",
+	"version": "1.0.2",
+	"author": "cyberofficial",
+	"description": "Mark Official HoloLive Twitter accounts.",
+	"content_scripts": [
+		{
+			"matches": [
+				"*://*.twitter.com/*"
+			],
+			"js": [
+				"db_list.js",
+				"TwitterIdentifier.js"
+			],
+			"run_at": "document_start"
+		}
+	],
+	"action": {
+		"default_icon": "icon32.png",
+		"default_popup": "popup.html",
+		"default_title": "VT Settings"
+	},
+	"icons": {
+		"16": "icon16.png",
+		"32": "icon32.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+	"permissions": [
+		"storage",
+		"scripting",
+		"tabs"
+	]
+}
