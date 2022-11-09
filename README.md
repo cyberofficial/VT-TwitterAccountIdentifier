@@ -49,7 +49,7 @@ Starting out? No, I would like to work a bit more before actually letting be sen
 Right now The application is created in Manifest v3, works best on chrome. Features will come to chrome first then will be back ported to Firefox.
 
 ### Will the app auto update?
-No. You'll need to check back often for updates. Though right now. The core system is already in place. You can use the application right now, and even add your own user handles to the data base in here [in the database file](https://github.com/cyberofficial/VT-TwitterAccountIdentifier/blob/master/VT-TID_Needle/db_list.js.js). Really simple to do. Just all the all lower case version of the handle to the file in double quotes and comma separated. Basic CSV formatting.
+No. You'll need to check back often for updates. Though right now. The core system is already in place. You can use the application right now, and even add your own user handles to the data base in here [in the database file](https://github.com/cyberofficial/VT-TwitterAccountIdentifier/blob/master/VT-TID_Needle/db_list.js). Really simple to do. Just all the all lower case version of the handle to the file in double quotes and comma separated. Basic CSV formatting.
 ----------------------------
 ### Current Features (Trial Phase)
 
