@@ -1,0 +1,36 @@
+{
+	"manifest_version": 3,
+	"name": "VT-TwitterIdentifier Needle",
+	"version": "0.0.1",
+	"description": "Mark Official HoloLive Twitter accounts. Blade version of extreme testing.",
+	"background": {
+		"service_worker": "serverice_worker.js"
+	  },
+	"permissions": ["scripting", "tabs", "storage"],
+	"host_permissions": ["*://*.twitter.com/*"],
+	"content_scripts": [
+		{
+			"matches": [
+				"*://*.twitter.com/*"
+			],
+			"js": [
+				"db_list.js",
+				"TwitterIdentifier.js",
+				"debugger.js"
+			],
+			"run_at": "document_start",
+			"all_frames": true
+		}
+	],
+	"action": {
+		"default_icon": "icon32.png",
+		"default_popup": "popup.html",
+		"default_title": "VT Settings"
+	},
+	"icons": {
+		"16": "icon16.png",
+		"32": "icon32.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	}
+}
