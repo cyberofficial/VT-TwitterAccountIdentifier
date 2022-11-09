@@ -56,4 +56,3 @@ No. You'll need to check back often for updates. Though right now. The core syst
 [x] Basic auto tag system
 
 [ ] Color code system that works <== wip
- 
