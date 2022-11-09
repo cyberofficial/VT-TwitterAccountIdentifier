@@ -118,19 +118,19 @@
 	Error Message: 
 
 	`;
-			try
-			{
-				for (const span of document.querySelectorAll('div[role="link"] div[dir="ltr"] > span'))
-				{
-					if (!span.textContent.startsWith('@')) continue;
-					if (!span.innerHTML.includes('aria-label="vtchecked retweetcard"'))
-					{
-						span.innerHTML = span.innerHTML + icon2.replace("replaceme", "retweetcard");
-					}
-				}
-			}
-			catch (ex)
-			{}
+			//try
+			//{
+			//	for (const span of document.querySelectorAll('div[role="link"] div[dir="ltr"] > span'))
+			//	{
+			//		if (!span.textContent.startsWith('@')) continue;
+			//		if (!span.innerHTML.includes('aria-label="vtchecked retweetcard"'))
+			//		{
+			//			span.innerHTML = span.innerHTML + icon2.replace("replaceme", "retweetcard");
+			//		}
+			//	}
+			//}
+			//catch (ex)
+			//{}
 			// profile links
 			try
 			{
@@ -181,7 +181,7 @@
 			try
 			{
 				for (const div of document.querySelectorAll(
-						'div[data-testid="UserCell"], div[data-testid="TypeaheadUser"], span[data-testid="socialContext"]'))
+						'div[data-testid="UserCell"], div[data-testid="TypeaheadUser"], span[data-testid="socialContext"], div[role="link"] > div > div > div > div > div > div > div > div'))
 				{
 					if (isvtcheckedDiv(div))
 					{
