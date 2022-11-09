@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+	"name": "VT-TwitterIdentifier",
+	"version": "0.0.3",
+	"description": "Mark Official HoloLive Twitter accounts. Stable but early release.",
+	"author": "cyberofficial",
+	"permissions": ["scripting"],
+	"content_scripts": [
+		{
+			"matches": [
+				"*://*.twitter.com/*"
+			],
+			"js": [
+				"db_list.js",
+				"TwitterIdentifier.js"
+			],
+			"run_at": "document_start"
+		}
+	],
+	"icons": {
+		"16": "icon16.png",
+		"32": "icon32.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	}
+}

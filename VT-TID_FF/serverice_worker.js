@@ -14,5 +14,4 @@ try {
 }
 
 
-
 console.log("Service Worker Working")
