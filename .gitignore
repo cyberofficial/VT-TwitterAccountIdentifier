@@ -11,3 +11,5 @@ sign_ff.bat
 VT-TID/TwitterIdentifier.zip
 VT-TID_Needle/TwitterIdentifier.zip
 VT-TID/manifest.old
+*.old
+VT-TID_FF/TwitterIdentifier.zip
