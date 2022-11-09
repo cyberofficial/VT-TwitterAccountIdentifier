@@ -8,6 +8,7 @@ Twitter is changing and stuff will get messy quick! If twitter the platform does
 - Chrome
 - Opera
 - Edge
+- FireFox (Limited Support)
 
 ### Manifest v2 Support
 All latest browsers still support manifest v2, but I've chosen to build with v3, I rather get used to v3 now than having a set back.
@@ -46,7 +47,7 @@ No, nothing is sent to twitter, nothing is pulled from twitter data wise. All ed
 
 ### Will this be published to the Chrome and FF store?
 Starting out? No, I would like to work a bit more before actually letting be sent off to masses and complain that something is broken.
-Right now The application is created in Manifest v3, so works only with chrome right now.
+Right now The application is created in Manifest v3, works best on chrome. Features will come to chrome first then will be back ported to Firefox.
 
 ### Will the app auto update?
 No. You'll need to check back often for updates. Though right now. The core system is already in place. You can use the application right now, and even add your own user handles to the data base in here [in the database file](db_list.js). Really simple to do. Just all the all lower case version of the handle to the file in double quotes and comma separated. Basic CSV formatting.
