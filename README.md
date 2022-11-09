@@ -1,4 +1,3 @@
-
 ## Download [latest version here](https://github.com/cyberofficial/VT-TwitterAccountIdentifier/releases)
 
 ### VT-TwitterAccountIdentifier
