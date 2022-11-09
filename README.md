@@ -24,7 +24,7 @@ Yes. Just say you like using it :) I get the satisfaction of knowing my work isn
 
 ### You missed a person! How rude!
 :( sorry, if I did miss a member, please make a ticket with the member's twitter handle. I will add it and update the app.
-You can check the current database [right here](db_list.js). These are the accounts currently tagged.
+You can check the current database [right here](https://github.com/cyberofficial/VT-TwitterAccountIdentifier/blob/master/VT-TID_Needle/db_list.js). These are the accounts currently tagged.
 
 ### Why aren't the Member's model creators tagged as well?
 I would need a collective effort of other's to get everyone tagged. This is a ground up project. Just the main channels and retired members are tagged.
@@ -50,7 +50,7 @@ Starting out? No, I would like to work a bit more before actually letting be sen
 Right now The application is created in Manifest v3, works best on chrome. Features will come to chrome first then will be back ported to Firefox.
 
 ### Will the app auto update?
-No. You'll need to check back often for updates. Though right now. The core system is already in place. You can use the application right now, and even add your own user handles to the data base in here [in the database file](db_list.js). Really simple to do. Just all the all lower case version of the handle to the file in double quotes and comma separated. Basic CSV formatting.
+No. You'll need to check back often for updates. Though right now. The core system is already in place. You can use the application right now, and even add your own user handles to the data base in here [in the database file](https://github.com/cyberofficial/VT-TwitterAccountIdentifier/blob/master/VT-TID_Needle/db_list.js.js). Really simple to do. Just all the all lower case version of the handle to the file in double quotes and comma separated. Basic CSV formatting.
 ----------------------------
 ### Current Features (Trial Phase)
 
