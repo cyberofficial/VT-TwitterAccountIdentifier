@@ -17,7 +17,8 @@
 			"js": [
 				"db_list.js",
 				"TwitterIdentifier.js",
-				"debugger.js"
+				"debugger.js",
+				"popup.js"
 			],
 			"run_at": "document_start",
 			"all_frames": true
@@ -25,7 +26,7 @@
 	],
 	"action": {
 		"default_icon": "icon32.png",
-		"//default_popup": "popup.html",
+		"default_popup": "popup.html",
 		"default_title": "VT Settings"
 	},
 	"icons": {

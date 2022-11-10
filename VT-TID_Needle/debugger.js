@@ -34,3 +34,10 @@ window.setInterval(function () {
         IF you are making a report then click the gear on the upper right of console and tick preserve log.`)
 	}
 }, 30000);
+
+chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
+    if (request.color === "green") {
+      document.body.style.backgroundColor = "green";
+      sendResponse({ status: "done" });
+    }
+  });
