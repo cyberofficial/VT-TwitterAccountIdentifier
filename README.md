@@ -1,5 +1,9 @@
 ## Download [latest version here](https://github.com/cyberofficial/VT-TwitterAccountIdentifier/releases)
+Download on Chrome Web Store:
 
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/lbgmahemkmoflpaoejlcldgkcnkincpb.svg?style=flat-square&logo=google-chrome&logoColor=white)](https://chrome.google.com/webstore/detail/vt-twitteridentifier-need/lbgmahemkmoflpaoejlcldgkcnkincpb)
+
+------------------------
 ### VT-TwitterAccountIdentifier
 Twitter is changing and stuff will get messy quick! If twitter the platform doesn't change it code, this will run normally! See if an account is really real or just a joke or troll account.
 
